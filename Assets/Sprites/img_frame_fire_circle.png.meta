@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 280f9754dd9d6467286dd4d90a9b342d
+guid: 011b67b9cb69b4c70b64957db15d4c05
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 563562088652831562
-    second: ic_heart_0
+      213: -496583589852267385
+    second: img_frame_fire_circle_0
+  - first:
+      213: 8550599546909515445
+    second: img_frame_fire_circle_1
+  - first:
+      213: 5077184956118951770
+    second: img_frame_fire_circle_2
+  - first:
+      213: 8098122429506343184
+    second: img_frame_fire_circle_3
+  - first:
+      213: -5545509999726623953
+    second: img_frame_fire_circle_4
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -122,13 +134,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ic_heart_0
+      name: img_frame_fire_circle_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 0
-        width: 356
-        height: 292
+        x: 270
+        y: 908
+        width: 40
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,8 +148,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a4b7707dbbc22d700800000000000000
-      internalID: 563562088652831562
+      spriteID: 78c31952bd7cb19f0800000000000000
+      internalID: -496583589852267385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_frame_fire_circle_1
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 909
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be58222cf4d9a670800000000000000
+      internalID: 8550599546909515445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_frame_fire_circle_2
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 855
+        width: 103
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a576d6841d8c57640800000000000000
+      internalID: 5077184956118951770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_frame_fire_circle_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 854
+        height: 872
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0115956a17f426070800000000000000
+      internalID: 8098122429506343184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: img_frame_fire_circle_4
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 0
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f230bef59046a03b0800000000000000
+      internalID: -5545509999726623953
       vertices: []
       indices: 
       edges: []
@@ -152,8 +248,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      ic_heart_0: 563562088652831562
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

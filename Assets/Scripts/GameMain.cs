@@ -93,8 +93,8 @@ public class GameMain : MonoBehaviour
 
     public void IncrementScore()
     {
-        //score++;
-        score += 10;
+        score++;
+        //score += 10;
         if(score % 50 == 0)
         {
             Vector2 lifePosition = new Vector2(13f, 0f);
