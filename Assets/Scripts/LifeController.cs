@@ -39,7 +39,6 @@ public class LifeController : MonoBehaviour
         if(target.tag == "Life")
         {
             Destroy(gameObject);
-            gameMain.ReductionCountLife();
         }
     }
 }

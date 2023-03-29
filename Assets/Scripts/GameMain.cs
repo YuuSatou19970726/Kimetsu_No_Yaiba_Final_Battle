@@ -30,6 +30,8 @@ public class GameMain : MonoBehaviour
 
     private void Awake()
     {
+        EmptySpawn = GameObject.Find("EmptySpawn");
+
         Time.timeScale = 0;
         countLife = 3;
     }
@@ -37,7 +39,6 @@ public class GameMain : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        EmptySpawn = GameObject.Find("EmptySpawn");
         ResetScore();
 
         for (int i = 0; i < countLife; i++)

@@ -12,13 +12,9 @@ public class Character : MonoBehaviour
 
     GameMain gameMain;
 
-    private void Awake()
-    {
-        characterBody = GetComponent<Rigidbody2D>();
-    }
-
     private void Start()
     {
+        characterBody = GetComponent<Rigidbody2D>();
         gameMain = FindAnyObjectByType<GameMain>();
     }
 
